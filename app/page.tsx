@@ -1,5 +1,7 @@
 export default function Home() {
   return (
-    <span className="mb-2 tracking-[-.01em]">Page under construction.</span>
+    <div className="flex justify-center items-center min-h-screen">
+      <span className="mb-2 tracking-[-.01em]">Page under construction.</span>
+    </div>
   );
 }
