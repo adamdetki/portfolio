@@ -17,9 +17,3 @@ Welcome! This is my personal site built with [Next.js](https://nextjs.org), desi
 - **Framework:** Next.js (App Router, React Server Components, Turbopack)
 - **Styling:** Tailwind CSS
 - **Hosting:** Netlify
-
----
-
-## 🗺️ Getting Started
-
-To run the site locally:
