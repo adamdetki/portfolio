@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -24,27 +20,13 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@components/shared": [
-        "components/shared/index.ts"
-      ],
-      "@components/navigation": [
-        "components/navigation/index.ts"
-      ],
-      "@hooks": [
-        "hooks/index.ts"
-      ]
+      "@/*": ["./src/*"],
+      "@components/shared": ["components/shared/index.ts"],
+      "@components/navigation": ["components/navigation/index.ts"],
+      "@hooks": ["hooks/index.ts"],
+      "@components/layout": ["components/layout/index.ts"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }
