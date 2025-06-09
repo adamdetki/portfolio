@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import useScreenSize from "./useScreenSize";
+import useScreenSize from "@hooks";
 
 function TestComponent() {
   const { deviceType } = useScreenSize();
