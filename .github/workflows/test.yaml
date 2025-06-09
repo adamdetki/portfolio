@@ -1,7 +1,7 @@
 name: test workflow
 
 on:
-  pull request:
+  pull_request:
     branches: -main
 
 jobs:
