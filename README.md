@@ -1,6 +1,7 @@
 # Portfolio
 
-Welcome! This is my personal site built with [Next.js](https://nextjs.org), designed to be a central hub for my work, blog posts, and ways to get in touch.
+Welcome! This is my personal site built with [Next.js](https://nextjs.org),
+designed to be a central hub for my work, blog posts, and ways to get in touch.
 
 ---
 

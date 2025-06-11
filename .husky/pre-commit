@@ -1,0 +1,3 @@
+npx eslint --quiet .
+npx prettier --write .
+npx tsc
