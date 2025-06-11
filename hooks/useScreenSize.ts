@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 function getDeviceType(width: number) {
-  if (width < 768) return "phone";
-  if (width < 1024) return "tablet";
-  return "desktop";
+  if (width < 768) return 'phone';
+  if (width < 1024) return 'tablet';
+  return 'desktop';
 }
 
 export default function useScreenSize() {
@@ -14,14 +14,14 @@ export default function useScreenSize() {
       setDevice(getDeviceType(window.innerWidth));
     };
 
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   return {
-    isPhone: device === "phone",
-    isTablet: device === "tablet",
-    isDesktop: device === "desktop",
+    isPhone: device === 'phone',
+    isTablet: device === 'tablet',
+    isDesktop: device === 'desktop',
     deviceType: device,
   };
 }

@@ -1,1 +1,1 @@
-export { default } from "./useScreenSize";
+export { default } from './useScreenSize';
