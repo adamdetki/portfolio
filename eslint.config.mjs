@@ -24,6 +24,7 @@ const config = [
     rules: {
       ...jsxA11y.configs.recommended.rules,
     },
+    ignores: ['/.next/'],
   },
 ];
 
