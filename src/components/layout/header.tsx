@@ -1,9 +1,12 @@
-import { Flex } from '@components/shared';
+'use client';
+
+import ModeToggle from '@components/navigation/theme_toggle';
+import Flex from '@components/shared/flex';
 import Link from 'next/link';
 
 export default function Header() {
   return (
-    <Flex className='flex-row sticky top-0 z-50 bg-white shadow-sm justify-end'>
+    <Flex className='flex-row sticky top-0 z-50 bg-green shadow-sm justify-end'>
       <nav className='flex gap-4 p-4'>
         <Link href='/projects' className='font-bold'>
           Projects
@@ -11,6 +14,7 @@ export default function Header() {
         <Link href='/blog' className='font-bold'>
           Blog
         </Link>
+        <ModeToggle />
       </nav>
     </Flex>
   );

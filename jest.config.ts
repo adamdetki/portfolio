@@ -7,11 +7,10 @@ const customJestConfig: Config = {
   testEnvironment: 'jsdom',
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   moduleNameMapper: {
-    '^@hooks$': '<rootDir>/hooks/index.ts',
-    '^@components/shared$': '<rootDir>/components/shared/index.ts',
-    '^@components/navigation$': '<rootDir>/components/navigation/index.ts',
-    '^@components/layout$': '<rootDir>/components/layout/index.ts',
-    '^@/(.*)$': '<rootDir>/src/$1',
+    '^@components/(.*)$': '<rootDir>/src/components/$1',
+    '^@hooks/(.*)$': '<rootDir>/src/hooks/$1',
+    '^@lib/(.*)$': '<rootDir>/src/lib/$1',
+    '^@ui/(.*)$': '<rootDir>/src/components/ui/$1',
   },
 };
 

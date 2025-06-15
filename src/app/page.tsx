@@ -1,4 +1,4 @@
-import { Flex } from '@components/shared';
+import Flex from '@/components/shared/flex';
 
 export default function Home() {
   return (
