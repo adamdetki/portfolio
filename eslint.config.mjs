@@ -13,18 +13,14 @@ const compat = new FlatCompat({
 const config = [
   ...compat.extends('next/core-web-vitals', 'next/typescript'),
   {
-    files: [
-      'app/**/*.{js,jsx,ts,tsx}',
-      'components/**/*.{js,jsx,ts,tsx}',
-      'hooks/**/*.{js,jsx,ts,tsx}',
-    ],
+    files: ['src/**/*.{js,jsx,ts,tsx}'],
     plugins: {
       'jsx-a11y': jsxA11y,
     },
     rules: {
       ...jsxA11y.configs.recommended.rules,
     },
-    ignores: ['/.next/'],
+    ignores: ['**/.next/**', '**/node_modules/**'],
   },
 ];
 
