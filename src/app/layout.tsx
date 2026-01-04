@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Porftolio',
+  title: 'Adam Detki',
   description: "Adam Detki's Porftolio",
 };
 

@@ -1,6 +1,5 @@
 'use client';
 
-import ModeToggle from '@components/navigation/theme_toggle';
 import Flex from '@components/shared/flex';
 import Link from 'next/link';
 
@@ -14,7 +13,6 @@ export default function Header() {
         <Link href='/blog' className='font-bold'>
           Blog
         </Link>
-        <ModeToggle />
       </nav>
     </Flex>
   );
